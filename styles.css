@@ -7,30 +7,39 @@
 body {
     font-family: 'Inter', sans-serif;
     font-weight: lighter;
-    font-size: .8rem;
+    font-size: .7rem;
     color: #FFFFFF;
     height: 100vh;
-    
-
     display: flex;
 }
 
+p {
+    margin: .2rem 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    padding-right: 2rem;
+}
+
 .left-wrapper {
+    width: 65%;
     padding: 2rem 0;
     background-color: #0B0911;
-    border: 2px solid red;
 }
 
 .right-wrapper {
+    width: 35%;
     padding: 2rem 0;
     background-color: #1C162C;
-    border: 2px solid red;
 }
 
 .text-wrapper{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+}
+
+table {
+    border-radius: 50%;
 }
 
 table, tr, td, th{
@@ -46,16 +55,15 @@ table.buttonsTable {
     margin-top: 2rem;
     margin-left: auto;
     margin-right: auto;
-    border: .3rem solid #1C162C; 
+    border: .3rem solid #1C162C;
 }
 
 table.buttonsTable td,
 table.buttonsTable th {
-    padding: .8rem 0;
+    padding: .5rem .05rem;
 }
 
 table.buttonsTable tbody td {
-    font-size: 1rem;
 }
 
 table.buttonsTable thead {
@@ -63,14 +71,27 @@ table.buttonsTable thead {
 }
 
 table.buttonsTable thead th {
-    font-size: 1rem;
-    font-weight: bold;
-    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: .5rem;
+    font-weight: lighter;
     text-align: center;
-    border-left: 6px solid #1C162C;
+    
 }
 
 
 .left-column {
     background-color: #1C162C;
+    font-family: 'Roboto', sans-serif;
+    font-size: .5rem;
+    font-weight: lighter;
+    text-align: center;
+}
+
+button {
+    text-transform: uppercase;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    padding: .5rem .5rem;
+    border-radius: 1rem;
 }
