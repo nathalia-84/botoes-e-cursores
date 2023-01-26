@@ -60,11 +60,11 @@ table.buttonsTable {
 
 table.buttonsTable td,
 table.buttonsTable th {
-    padding: .5rem .05rem;
+    padding: .5rem .1rem;
 }
 
-table.buttonsTable tbody td {
-}
+/* table.buttonsTable tbody td {
+} */
 
 table.buttonsTable thead {
     background: #1C162C;
@@ -91,7 +91,81 @@ button {
     text-transform: uppercase;
     font-family: inherit;
     font-weight: inherit;
-    font-size: inherit;
-    padding: .5rem .5rem;
+    font-size: .6rem;
+    padding: .5rem 1rem;
     border-radius: 1rem;
+    color: #FFFFFF;
+}
+
+.primary {
+    background-color: #8257E5;
+}
+
+.secondary {
+    background-color: #3C3748;
+}
+
+.tertiary {
+    background: none;
+    border: none;
+}
+
+.hover td button:hover {
+    opacity: 0.8;
+}
+
+.focus td button:focus {
+    border: 2px solid #ffffff;
+}
+
+.disabled td button {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.loading td button {
+    background-image: url(./assets/frame_1.png);
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    background-position-x: 10%;
+    background-position-y: center;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    cursor: progress;
+}
+
+
+.movable td button {
+    background-image: url(./assets/vector.png);
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    background-position-x: 10%;
+    background-position-y: center;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    cursor: move;
+}
+
+.btn-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.btn-wrapper button {
+    width: 80%;
+    margin: .8rem auto;
+    padding: 1rem 0;
+    border-radius: 3rem;
+    border: none;
+}
+
+.btn-wrapper button.movable {
+    background-image: url(./assets/vector.png);
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    background-position-x: 35%;
+    background-position-y: center;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    cursor: move;
 }

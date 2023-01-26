@@ -33,44 +33,44 @@
                 <tbody>
                     <tr class="default">
                         <td class="left-column">DEFAULT</td>
-                        <td><button type="button">default primary</button></td>
-                        <td><button type="button">default secondary</button></td>
-                        <td><button type="button">default tertiary</button></td>
+                        <td><button class="primary" type="button">default primary</button></td>
+                        <td><button class="secondary" type="button">default secondary</button></td>
+                        <td><button class="tertiary" type="button">default tertiary</button></td>
                         <td><img src="./assets/pointer.png" width="25px"/></td>
                     </tr>
                     <tr class="hover">
                         <td class="left-column">HOVER</td>
-                        <td><button type="button">hover primary</button></td>
-                        <td><button type="button">hover secundary</button></td>
-                        <td><button type="button">hover tertiary</button></td>
+                        <td><button class="primary" type="button">hover primary</button></td>
+                        <td><button class="secondary" type="button">hover secundary</button></td>
+                        <td><button class="tertiary" type="button">hover tertiary</button></td>
                         <td><img src="./assets/pointer.png" width="25px"/></td>
                     </tr>
                     <tr class="focus">
                         <td class="left-column">FOCUS</td>
-                        <td><button type="button">focus primary</button></td>
-                        <td><button type="button">focus secondary</button></td>
-                        <td><button type="button">focus tertiary</button></td>
+                        <td><button class="primary" type="button">focus primary</button></td>
+                        <td><button class="secondary" type="button">focus secondary</button></td>
+                        <td><button class="tertiary" type="button">focus tertiary</button></td>
                         <td><img src="./assets/pointer.png" width="25px"/></td>
                     </tr>
                     <tr class="disabled">
                         <td class="left-column">DISABLED</td>
-                        <td><button type="button">disabled primary</button></td>
-                        <td><button type="button">disabled secondary</button></td>
-                        <td><button type="button">disabled tertiary</button></td>
+                        <td><button disabled class="primary" type="button">disabled primary</button></td>
+                        <td><button disabled class="secondary" type="button">disabled secondary</button></td>
+                        <td><button disabled class="tertiary" type="button">disabled tertiary</button></td>
                         <td><img src="./assets/frame.png" width="25px"/></td>
                     </tr>
                     <tr class="loading">
                         <td class="left-column">LOADING</td>
-                        <td><button type="button">loading primary</button></td>
-                        <td><button type="button">loading secondary</button></td>
-                        <td><button type="button">loading tertiary</button></td>
+                        <td><button class="primary" type="button">loading primary</button></td>
+                        <td><button class="secondary" type="button">loading secondary</button></td>
+                        <td><button class="tertiary" type="button">loading tertiary</button></td>
                         <td><img src="./assets/busybutclickable.png" width="25px"/></td>
                     </tr>
                     <tr class="movable">
                         <td class="left-column">MOVABLE</td>
-                        <td><button type="button">movable primary</button></td>
-                        <td><button type="button">movable secondary</button></td>
-                        <td><button type="button">movable tertiary</button></td>
+                        <td><button class="primary" type="button">movable primary</button></td>
+                        <td><button class="secondary" type="button">movable secondary</button></td>
+                        <td><button class="tertiary" type="button">movable tertiary</button></td>
                         <td><img src="./assets/move.png" width="25px"/></td>
                     </tr>
                 </tbody>
@@ -84,7 +84,10 @@
             <h1>Teste os botões</h1>
             <p>Interaja com os botões e observe a mudança de aparência e de cursores</p>
         </div>
-        <div class="btn-wrapper"></div>
+        <div class="btn-wrapper">
+            <button class="primary" type="button">interaja comigo</button>
+            <button class="secondary" type="button">interaja comigo</button><button class="tertiary movable" type="button">interaja comigo</button>
+        </div>
     </div>
 </body>
 
