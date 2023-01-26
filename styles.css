@@ -159,13 +159,19 @@ button {
     border: none;
 }
 
+.btn-wrapper button:focus {
+    border: 2px solid #ffffff;
+}
+
+.btn-wrapper button:hover {
+    opacity: 0.8;
+}
+
 .btn-wrapper button.movable {
     background-image: url(./assets/vector.png);
     background-origin: padding-box;
     background-repeat: no-repeat;
-    background-position-x: 35%;
+    background-position-x: 33%;
     background-position-y: center;
-    padding-left: 2rem;
-    padding-right: 1rem;
     cursor: move;
 }
