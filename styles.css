@@ -115,23 +115,21 @@ button {
 }
 
 .focus td button:focus {
-    border: 2px solid #ffffff;
+    outline: 2px solid #ffffff;
 }
 
-.disabled td button {
+.disabled td button:disabled {
     opacity: 0.5;
     cursor: not-allowed;
 }
 
 .loading td button {
-    background-image: url(./assets/frame_1.png);
-    background-origin: padding-box;
-    background-repeat: no-repeat;
-    background-position-x: 10%;
-    background-position-y: center;
-    padding-left: 2rem;
-    padding-right: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     cursor: progress;
+}
+.loading i {
+    margin-right: 10px;
 }
 
 
@@ -160,7 +158,7 @@ button {
 }
 
 .btn-wrapper button:focus {
-    border: 2px solid #ffffff;
+    outline: 2px solid #ffffff;
 }
 
 .btn-wrapper button:hover {
